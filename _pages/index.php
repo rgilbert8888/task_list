@@ -12,7 +12,7 @@ $tasks = getTasksAll();
 <html>
 <head>
 	<title>TASKS</title>
-	<link rel="stylesheet" type="text/css" href="../_styles/styls.css">
+	<link rel="stylesheet" type="text/css" href="../_styles/main.css">
 </head>
 <body> 
 <?php include_once(ROOT_PATH . "_includes/header.php"); ?>
@@ -41,5 +41,7 @@ $tasks = getTasksAll();
 
 
 <?php include_once(ROOT_PATH . "_includes/footer.php"); ?>
+
+<script src="../js/app.js"></script>
 </body>
 </html>
